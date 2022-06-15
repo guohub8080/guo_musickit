@@ -1,5 +1,10 @@
+
+![musickit](https://user-images.githubusercontent.com/41369069/173718588-d3fbf24d-33d3-417d-8b67-265e77b09d82.png)
+
+
 # guo_musickit
-A music theory toolkit based on Vue3
+
+A toolkit for music theory caculation based on Vue3
 
 Github pages: https://guohub8080.github.io/guo_musickit/#/music/readme
 
