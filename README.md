@@ -8,7 +8,7 @@ A toolkit for music theory calculation based on Vue3
 
 Github pages: https://guohub8080.github.io/guo_musickit/#/music/readme
 
-Gitee Pages：https://guohub8080.gitee.io/guo_musickit/#/music/scales
+Gitee Pages：https://guohub8080.gitee.io/guo_musickit/#/music/readme
 
 vercel app: https://guo-musickit.vercel.app/#/music/readme
 
