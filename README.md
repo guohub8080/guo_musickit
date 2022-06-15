@@ -4,7 +4,7 @@
 
 # guo_musickit
 
-A toolkit for music theory caculation based on Vue3
+A toolkit for music theory calculation based on Vue3
 
 Github pages: https://guohub8080.github.io/guo_musickit/#/music/readme
 
