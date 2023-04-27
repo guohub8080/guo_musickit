@@ -1,0 +1,36 @@
+{
+  "name": "gzt_vue_2",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vueuse/core": "^8.5.0",
+    "ant-design-vue": "^3.2.3",
+    "http-server": "^14.1.0",
+    "less": "^4.1.2",
+    "lowdb": "^3.0.0",
+    "path-browserify": "^1.0.1",
+    "pinia": "^2.0.14",
+    "taffy": "^2.6.2",
+    "taffydb": "^2.7.3",
+    "typings": "^2.1.1",
+    "vite-plugin-importer": "^0.2.5",
+    "vue": "^3.2.25",
+    "vue-router": "4",
+    "vuedraggable": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.33",
+    "@vitejs/plugin-vue": "^2.3.1",
+    "dtsmake": "^0.0.10",
+    "less-loader": "^11.0.0",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.7",
+    "vue-tsc": "^0.34.7",
+    "webpack": "^5.72.1"
+  }
+}
