@@ -12,17 +12,17 @@ const routes: Array<RouteRecordRaw> = [
 		component: () => import("@/views/music/views/ReadMe.vue")
 	},
 	{
-		path: "interval",
+		path: "/interval",
 		name: "interval",
 		component: () => import("@/views/music/views/Base.vue")
 	},
 	{
-		path: "scales",
+		path: "/scales",
 		name: "scales",
 		component: () => import("@/views/music/views/Scales.vue")
 	},
 	{
-		path: "chord",
+		path: "/chord",
 		name: "chord",
 		component: () => import("@/views/music/views/Chord.vue")
 	},
