@@ -6,7 +6,7 @@
 
 GitHub Pages:
 
-https://guohub8080.github.io/musickit_v1/#/music/readme
+https://guohub8080.github.io/musickit_v1/#/readme
 
 乐理计算器是一个辅助计算乐理的小程序， 目前支持音程的上下行及正反向查询、七个中古调式的调内和弦及反向和弦查询。
 
