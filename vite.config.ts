@@ -28,7 +28,7 @@ export default defineConfig({
             },
         },
     },
-    base: process.env.NODE_ENV === 'production' ? './' : '/guo_musickit/',
+    base: process.env.NODE_ENV === 'production' ? './' : './musickit_v1/',
 
 
     build: {
