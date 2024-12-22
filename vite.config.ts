@@ -28,7 +28,7 @@ export default defineConfig({
             },
         },
     },
-    base: process.env.NODE_ENV === 'production' ? './' : '/musickit_v1/',
+    base: process.env.NODE_ENV === 'production' ? '/musickit_v1/docs/' : '/',
 
 
     build: {
@@ -39,6 +39,7 @@ export default defineConfig({
                 assetFileNames: "[ext]/[name]-[hash].[ext]",
             }
         },
+        outDir: "docs",
         commonjsOptions: {
             exclude: ['ckeditor/*'],
         },
