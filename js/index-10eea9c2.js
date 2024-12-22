@@ -1,1 +1,0 @@
-import{_ as e}from"./plugin-vue_export-helper-893979e1.js";import{d as _,o,c as t}from"./index-2dbed2c6.js";const r=_({setup(s){return(a,c)=>(o(),t("h1",null,"This is About your music!"))}});var u=e(r,[["__scopeId","data-v-301c04b7"]]);export{u as default};
