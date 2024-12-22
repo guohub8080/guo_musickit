@@ -1,14 +1,13 @@
 <script setup lang="ts">
-import {ref, reactive, onMounted, computed, watch} from "vue";
+import {computed} from "vue";
 import note_meta from "./logic/db_note_meta";
 
 import {storeToRefs} from "pinia";
-import {get_n_db_by_uid, to_db} from "./logic/utils";
-import {onKeyUp, onKeyStroke, useScrollLock, useWindowScroll} from "@vueuse/core";
+import {to_db} from "./logic/utils";
+import {onKeyUp} from "@vueuse/core";
 import useMusicStore from "./logic/music_store";
 import Settings from "./components/Settings.vue";
 import router from "@/router";
-import {useRoute} from "vue-router";
 import Loading from "./components/Loading.vue";
 
 const mstore = useMusicStore();
@@ -18,14 +17,11 @@ const {tonic_choice_bar, tonic_n_db, nth, is_loading} = storeToRefs(mstore);
 
 router.beforeEach((to, from, next) => {
   is_loading.value = true;
-  // console.log(store.state.isLoading);
   next();
 });
 // 这里为了让效果明显一些加了延时
 router.afterEach((to, from) => {
-  // store.dispatch('onLoading', false);
   is_loading.value = false;
-  // console.log(store.state.isLoading);
 });
 
 const is_selected = (inth: number) => {
@@ -166,10 +162,10 @@ const need_hide = computed(() => {
 
     <!--    导航条-->
     <div class="nav">
-      <div @click="router.replace('/music/readme')" :class="is_selected(1)">ReadMe</div>
-      <div @click="router.replace('/music/interval')" :class="is_selected(2)">Interval</div>
-      <div @click="router.replace('/music/scales')" :class="is_selected(3)">Scales</div>
-      <div @click="router.replace('/music/chord')" :class="is_selected(4)">Chord</div>
+      <div @click="router.replace('/readme')" :class="is_selected(1)">ReadMe</div>
+      <div @click="router.replace('/interval')" :class="is_selected(2)">Interval</div>
+      <div @click="router.replace('/scales')" :class="is_selected(3)">Scales</div>
+      <div @click="router.replace('/chord')" :class="is_selected(4)">Chord</div>
     </div>
 
     <Loading v-if="is_loading"/>

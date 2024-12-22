@@ -27,18 +27,14 @@ export default defineStore('music', () => {
         const route = useRoute();
         // console.log(route.path)
         switch (route.path) {
-            case "/music/readme":
+            case "/readme":
                 return 1;
-                break;
-            case "/music/interval":
+            case "/interval":
                 return 2;
-                break;
-            case "/music/scales":
+            case "/scales":
                 return 3;
-                break;
-            case "/music/chord":
+            case "/chord":
                 return 4;
-                break;
         }
     })
     // 如何显示音阶？阿拉伯数字或罗马数字,true的时候显示罗马数字，false的时候显示普通数字
